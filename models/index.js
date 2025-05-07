@@ -1,13 +1,8 @@
-import UserToken from "./UserToken.js";
 import User from "./User.js";
-import Privilege from "./Privilege.js";
-import Category from "./Category.js";
-
+import Moments from "./Moments.js"
 
 
 export default {
-  UserToken,
   User,
-  Privilege,
-  Category,
+  Moments,
 };

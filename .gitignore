@@ -3,3 +3,6 @@ package-lock.json
 
 # dotenv environment variable files
 .env
+
+#uploads
+public/uploads

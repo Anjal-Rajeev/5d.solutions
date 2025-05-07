@@ -10,7 +10,6 @@ import { PORT } from "./config.js";
 import connectDB from "./database/index.js";
 
 import indexRouter from "./routes.js";
-import models from "./models/index.js";
 
 const app = express();
 

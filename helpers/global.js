@@ -1,7 +1,5 @@
 import { Types } from "mongoose";
 
-
-
 global.isNull = (field) => {
   return (
     field === undefined ||
@@ -12,7 +10,5 @@ global.isNull = (field) => {
   );
 };
 
-
-global.OPTIONS_FIELD = { label: "$name", value: "$_id" };
 
 global.ObjectId = (obj) => new Types.ObjectId(obj);
